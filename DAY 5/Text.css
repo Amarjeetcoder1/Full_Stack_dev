@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    /* border: solid;
+    width: 50%; */
+    text-decoration: wavy red underline;
+    background-color: rgb(248, 233, 214);
+    font-size: 40px;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+ 
+}
+
+h3 { 
+    /* text-align: right; */
+    text-align: start;
+    text-decoration: double blueviolet underline ;
+}
+
+p {
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.5;
+   font-size: 15px;
+  
+
+}
+h2{
+    font-weight: 800;
+    text-decoration: dotted blueviolet underline;
+    font-family: impact;
+   
+}
+
+a{
+    text-decoration: none; 
+}

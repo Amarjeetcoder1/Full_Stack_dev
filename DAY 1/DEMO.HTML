@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .zoom-wrapper{
+            height: 200px;
+            overflow: hidden;
+            border-radius: 15px;
+        }
+        .zoom-wrapper img{
+            object-fit: cover;
+            transition: transform 0.8s;
+            height: 100%;
+        }
+
+        .zoom-wrapper:hover img{
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="zoom-wrapper">
+        <img src="./landscape-hills-covered-greenery-surrounded-by-sea-cloudy-sky-during-sunset.jpg" alt='forest-landscape'>
+    </div>
+</body>
+</html>
