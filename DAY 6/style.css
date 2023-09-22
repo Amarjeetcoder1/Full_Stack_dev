@@ -1,0 +1,42 @@
+/***************UNIVERSAL SELECTOR*************/
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/************ELEMENT SELECTOR**************/
+
+/* h3{
+    color: purple;
+} */
+
+h1, h3{
+    color: #b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+    border-radius: 4px;
+}
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+/**********DESCENDANT SELECTOR**********/
+ .post a{
+    color: purple;
+    background-color: yellow;
+ }
+
+ nav ul li a{
+    color: rgb(221, 85, 226);
+    text-decoration: none;
+    
+ }
+
+ /***********ADJACENT SIBLING COMBINATOR******/
+ 

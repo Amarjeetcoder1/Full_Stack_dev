@@ -1,0 +1,20 @@
+
+/***********COLOR OF FOREGROUND*************/
+/***********COLOR OF BACKGROUND*************/
+h1{
+    color: blueviolet;
+    background-color: grey;
+}
+
+p{
+    color: red;
+    background-color: cornsilk;
+}
+
+button{
+    color: gold;
+    background-color: black;
+    /* background: black;*/
+} 
+
+
