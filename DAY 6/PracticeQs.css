@@ -1,0 +1,24 @@
+/******Universal Selector ***********/
+* {
+    font-family: 'Courier New';
+}
+
+/********Element Selector *********/
+h1 {
+    color: #1b74e4;
+}
+
+/******** Id Selector **************/
+#searchbtn {
+    background-color: black;
+    color: white;
+}
+
+/********Class Selector ************/
+.userbtn {
+    background-color: aqua;
+}
+
+
+
+ 
