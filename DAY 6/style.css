@@ -12,6 +12,8 @@
 h1, h3{
     color: #b92b27;
 }
+
+/********* ID SELECTOR ******************/
 #login{
     background-color: white;
 }
@@ -21,6 +23,7 @@ h1, h3{
     border-radius: 4px;
 }
 
+/**********CLASS SELECTOR **************/
 .upvote{
     background-color: green;
     color: aliceblue;
@@ -39,4 +42,31 @@ h1, h3{
  }
 
  /***********ADJACENT SIBLING COMBINATOR******/
- 
+ p + h3{
+    text-decoration: underline;
+ }
+
+ .upvote + button {
+        background-color: cornflowerblue;
+        color: darkblue;
+ }
+
+ /***********CHILD COMBINATOR************/
+ div > input{
+    background-color: darksalmon;
+ }
+/******** DON'T USE THIS IN NEW CSS*******/
+
+/******ATTRIBUTE SELECTOR*********/
+ input[type="text"]{
+         color: green;
+    
+ }
+ input[type="password"]{
+           color: #b92b27;
+   
+ }
+ input[type]{
+    background-color: ghostwhite;
+    
+ }
