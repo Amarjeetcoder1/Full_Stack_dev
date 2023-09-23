@@ -1,0 +1,20 @@
+div {
+    background-color: yellowgreen;
+}
+
+/* div form {
+    background-color: crimson;
+} */
+
+input[type] {
+    background-color: inherit;
+}
+button {
+    background-color: inherit ;
+}
+button:hover {
+    background-color: red ;
+}
+input[type="password"] {
+    color: red;
+}
