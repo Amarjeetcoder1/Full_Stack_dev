@@ -1,0 +1,24 @@
+#outer {
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    background-color: pink;
+    font-size: 20px;
+}
+
+#inner {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: rgb(104, 111, 194);
+    font-size: 1.5em;
+}
+
+button {
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid rgb(45, 150, 4);
+    padding: 0em 1em
+   
+   
+}

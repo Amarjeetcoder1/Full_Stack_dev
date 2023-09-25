@@ -1,9 +1,9 @@
-/* #outerdiv {
+#outerdiv {
     height: 200px;
     width: 70px;
     border: 2px solid black;
     /* background-color: black; */
-    /*
+    
 } 
 
 .innerdiv {
@@ -13,12 +13,12 @@
     border: 2px solid black;
     border-radius: 50%;
 
-} */
-#outerdiv {
+}
+/* #outerdiv {
     display: grid;
     border: 2px solid black;
 
-}
+} */
 
 #red {
     background-color: red;
