@@ -1,0 +1,8 @@
+span {
+    /* background-color: rgb(219, 117, 230); */
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+    padding: 50px; /* only set in left and right side */
+    margin: 20px;
+}
