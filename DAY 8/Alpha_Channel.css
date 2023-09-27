@@ -1,0 +1,14 @@
+div {
+    height: 100px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    background-color: #00ff00ff;
+}
+ 
+#opacity {
+    background-color: #ffa511ff;
+    opacity: 0.5;
+
+}
+ 
