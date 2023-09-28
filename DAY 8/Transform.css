@@ -52,5 +52,5 @@ div:nth-of-type(3n) {
     transform: translateX(200px) rotate(135deg);
 } 
 .twenty {
-    transform: rotate(135deg) translateX(200px);
+    transform: rotate(135deg) translateX(200px) skew(30deg);
 } 
