@@ -1,0 +1,4 @@
+h1:hover::first-letter {
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
