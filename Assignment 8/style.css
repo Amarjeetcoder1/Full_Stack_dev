@@ -1,0 +1,25 @@
+.container {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid rgb(82, 164, 214);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+    align-items: center;
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    
+}

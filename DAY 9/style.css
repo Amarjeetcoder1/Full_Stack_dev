@@ -6,8 +6,10 @@
     border: 2px solid #000000;
     margin: 10px auto;
     display: flex;  /*row */
-    flex-direction: row;
-    justify-content:space-between;
+    flex-direction: column-reverse;
+    /* justify-content:flex-start; */
+    justify-content: row;
+    flex-wrap: wrap-reverse;
 }
 
 h1 {
@@ -15,7 +17,7 @@ h1 {
 }
 #continer div {
     height: 100px;
-    width: 100px;
+    width: 300px;
     text-align: center;
     color: white;
     font-size: 1.5em;
