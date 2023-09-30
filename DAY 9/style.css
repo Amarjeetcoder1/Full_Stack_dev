@@ -1,0 +1,28 @@
+
+#continer {
+    height: 300px;
+    width: 80%;
+    background-color: rgb(191, 212, 212);
+    border: 2px solid #000000;
+    margin: 10px auto;
+    display: flex;  /*row */
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+#continer div {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    
+    
+}
+img {
+    border-radius: 50%;
+    background-color: #000000;
+}
