@@ -1,14 +1,15 @@
 .container {
     height: 400px;
     width: 400px;
-    background-color: white;
+    background-color: #4e8098;
     border: 2px solid rgb(82, 164, 214);
     border-radius: 10px;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;  
     align-items: center;
+    margin: 0 auto;
+    margin-top: 5rem;
 }
 
 .inner {
@@ -21,5 +22,11 @@
     text-align: center;
     font-size: 50px;
     font-family:'Times New Roman', Times, serif;
+
     
+}
+.inner:hover {
+    transform: scale(0.9);
+    box-shadow: 0 0 4px red;
+    cursor:pointer;
 }
