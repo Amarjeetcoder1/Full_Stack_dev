@@ -1,0 +1,20 @@
+#continer {
+    height: 50px;
+    width: 900px;
+    border: 2px solid rgb(116, 208, 238);
+    border-radius: 10px;
+    background-color: pink;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    
+}
+
+.inner {
+    font-size: 24px;
+    height: 50px;
+    width: 80px;
+    line-height: 2.5rem;
+    margin-left: 5px;
+
+}
