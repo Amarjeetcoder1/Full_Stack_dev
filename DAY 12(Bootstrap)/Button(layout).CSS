@@ -1,7 +1,10 @@
 body {
-    background-color:bisque;
+    background-color: rgb(157, 156, 156);
 }
 .container {
     margin-top: 100px;
     
+ }
+.btn-secondary {
+    background-color: rgb(177, 47, 186);
 }
