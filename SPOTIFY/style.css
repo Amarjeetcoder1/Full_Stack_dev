@@ -14,6 +14,8 @@ body {
 
 }
 
+/* THE STYLING OF SIDE NAVBAR */
+
 .sidebar {
     background-color: green;
     width: 280px;
@@ -147,3 +149,5 @@ a {
     transform: scale(1.1);
     cursor: pointer;
 }
+
+/* THE STYLING OF MAIN CONTENT  */
