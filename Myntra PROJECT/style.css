@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #b6b1b1;
+    
 
 }
 
@@ -32,6 +33,7 @@ header {
     display: flex;
     min-width: 500px;
     justify-content: space-evenly;
+    
 
 
 }
@@ -158,4 +160,67 @@ header {
     scale: 0.9;
 }
 
+.banner {
+    
+    width: 100%;
+}
 
+/* Footer Part */
+
+.footer_container {
+    display: flex;
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    justify-content: space-evenly;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;  
+}
+
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 25px 0px;  
+}
+
+.footer_column a {
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.img_button {
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    height: 42px;
+    margin: 0px 10px 0px 0px;  
+}
+
+.socall h3 {
+    color: #282c3f;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px; 
+    margin: 25px 0px;
+}
+
+.social_media_icon {
+    
+    margin: 0px 2.5px;
+}
+
+.img_product {
+    margin: 20px 0px 0px -40px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
